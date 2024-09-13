@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Outfit-VariableFont';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'YongSerif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+HTML, body{
+    width: 95vw;
+    height: 100vh;
+
+    background-color: hsl(330, 100%, 98%);
+}
+
+div#photo > img{
+    width: 100%;
+
+    margin-bottom: -10px;
+}
+
+main{
+    width: 100%;
+    padding: 40px;
+
+    background-color: white;
+
+    font-family: 'Outfit-VariableFont';
+}
+
+h1{
+    margin: auto;
+    display: block;
+
+    font-family: 'YongSerif';
+    font-size: 2.5em;
+}
+
+p{
+    padding: 25px 0px;
+
+    text-align: justify;
+}
+
+div#pinfo{
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+div#pinfo > h3{
+    color: hsl(332, 51%, 32%);
+
+    margin-bottom: 25px;
+    margin-left: -20px;
+}
+
+div#pinfo{
+    padding-left: 40px;
+}
+
+h2{
+    padding: 25px 0px;
+    color: hsl(14, 45%, 36%);
+
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'YongSerif'; 
+}
+
+li{
+    padding: 5px 0px;
+}
+
+ul#nutri{
+    columns: 2;
+}
